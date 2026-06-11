@@ -346,56 +346,39 @@ z-index:-1;
 
 .drone-animation{
 position:fixed;
-top:120px;
-left:-250px;
-z-index:1;
-animation:flyAcross 18s linear infinite;
+top:150px;
+left:-300px;
+z-index:999;
+animation:flyDrone 15s linear infinite;
 pointer-events:none;
 }
 
 .drone-animation img{
 width:220px;
-filter:
-drop-shadow(0 0 20px rgba(255,238,0,0.5))
-drop-shadow(0 0 40px rgba(255,238,0,0.2));
-animation:hoverDrone 3s ease-in-out infinite;
-opacity:0.9;
+animation:floatDrone 3s ease-in-out infinite;
+filter:drop-shadow(0 0 20px rgba(255,238,0,0.5));
 }
 
-@keyframes flyAcross{
+@keyframes flyDrone{
 0%{
-left:-250px;
-transform:translateY(0px);
-}
-
-25%{
-transform:translateY(-20px);
-}
-
-50%{
-transform:translateY(15px);
-}
-
-75%{
-transform:translateY(-10px);
+left:-300px;
 }
 
 100%{
-left:110%;
-transform:translateY(0px);
+left:120%;
 }
 }
 
-@keyframes hoverDrone{
+@keyframes floatDrone{
 0%{
-transform:rotate(0deg);
+transform:translateY(0px);
 }
 
 50%{
-transform:rotate(2deg);
+transform:translateY(-15px);
 }
 
 100%{
-transform:rotate(0deg);
+transform:translateY(0px);
 }
 }
