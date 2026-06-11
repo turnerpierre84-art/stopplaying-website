@@ -14,43 +14,29 @@ color:white;}
 .navbar{
 position:fixed;
 top:0;
+left:0;
 width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:15px 5%;
-background:black;
+padding:15px 40px;
+background:rgba(0,0,0,0.85);
 z-index:1000;
+box-sizing:border-box;
 }
-/* LOGO */
-.logo-area{
-display:flex;
-align-items:center;
-gap:15px;
-}
-.logo-area img{
-width:85px;
-height:85px;
-object-fit:cover;
-border-radius:50%;
-border:3px solid #ffee00;
-box-shadow:0 0 25px rgba(255,238,0,.5);
-}
-.logo-area h1{
-color:#ffee00;
-font-size:26px;
-}
+
 /* NAV LINKS */
 nav{
 display:flex;
-gap:25px
-  flex-wrap:wrap;
+gap:30px;
+flex-wrap:wrap;
 }
+
 nav a{
 color:white;
 text-decoration:none;
+font-size:20px;
 font-weight:bold;
-}
 nav a:hover{
 color:#ffee00;
 }
