@@ -382,3 +382,22 @@ transform:translateY(-15px);
 transform:translateY(0px);
 }
 }
+.music-btn{
+position:fixed;
+bottom:20px;
+left:20px;
+background:#ffee00;
+color:black;
+border:none;
+padding:10px 20px;
+border-radius:40px;
+font-weight:bold;
+cursor:pointer;
+z-index:9999;
+box-shadow:0 0 20px rgba(255,238,0,0.5);
+transition:0.3s;
+}
+
+.music-btn:hover{
+transform:scale(1.08);
+}
