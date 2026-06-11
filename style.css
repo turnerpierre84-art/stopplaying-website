@@ -42,7 +42,8 @@ font-size:26px;
 /* NAV LINKS */
 nav{
 display:flex;
-gap:25px;
+gap:25px
+  flex-wrap:wrap;
 }
 nav a{
 color:white;
@@ -231,4 +232,25 @@ margin-bottom:10px;
 .terms-box p{
 color:white;
 line-height:1.8;
+}
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+padding:15px;
+}
+
+nav{
+margin-top:15px;
+justify-content:center;
+}
+
+nav a{
+font-size:18px;
+}
+
+.logo-area h1{
+font-size:22px;
+}
+
 }
