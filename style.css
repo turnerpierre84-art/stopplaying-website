@@ -204,3 +204,31 @@ margin-bottom:10px;
 color:white;
 line-height:1.7;
 }
+.terms{
+padding:140px 10%;
+}
+
+.terms h1{
+font-size:60px;
+color:#ffee00;
+margin-bottom:40px;
+text-shadow:0 0 25px #ffee00;
+}
+
+.terms-box{
+background:rgba(255,255,255,.08);
+padding:40px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+}
+
+.terms-box h2{
+color:#ffee00;
+margin-top:25px;
+margin-bottom:10px;
+}
+
+.terms-box p{
+color:white;
+line-height:1.8;
+}
